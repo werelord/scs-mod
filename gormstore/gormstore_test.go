@@ -18,7 +18,8 @@ func initWithCleanupInterval(t *testing.T, cleanupInterval time.Duration) (*GORM
 	var db *gorm.DB
 	var err error
 
-	dialect := os.Getenv("SCS_GORM_TEST_DIALECT")
+	//dialect := os.Getenv("SCS_GORM_TEST_DIALECT")
+	dialect := "sqlite3"
 	switch dialect {
 	default:
 		dialect = "sqlite3"
