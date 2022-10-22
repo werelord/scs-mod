@@ -4,12 +4,11 @@ import (
 	"bufio"
 	"bytes"
 	"context"
+	"go-lotgd/submodules/scs-mod/memstore"
 	"log"
 	"net"
 	"net/http"
 	"time"
-
-	"github.com/alexedwards/scs/v2/memstore"
 )
 
 // Deprecated: Session is a backwards-compatible alias for SessionManager.

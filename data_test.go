@@ -4,12 +4,11 @@ import (
 	"bytes"
 	"context"
 	"errors"
+	"go-lotgd/submodules/scs-mod/mockstore"
 	"reflect"
 	"sync"
 	"testing"
 	"time"
-
-	"github.com/alexedwards/scs/v2/mockstore"
 )
 
 func TestSessionDataFromContext(t *testing.T) {
